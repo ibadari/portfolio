@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>......... - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="title">My Portfolio</h1>
+    <p>MCA Student </p>
+    <button onclick=>Blue</button>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is Ibadarishisha Laitmon. I am pursuing  my MCA in Assam Don Bosco University.
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>C Programming (Basic)</li>
+      <li>Python (Basic)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Student Attendance Tracker</h3>
+      <p>A simple HTML-based UI for tracking student attendance. <a href="#">View Project</a></p>
+    </div>
+    <div class="project">
+      <h3>Weather Info Page</h3>
+      <p>Weather Information  <a href="#">View Project</a></p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+   
+    <p>Phone: <a href="tel:+8787485170">8256971343</a></p>
+  </section>
+
+  <footer>
+    <p id="datetime" class="footer-left"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
